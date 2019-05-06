@@ -26,6 +26,15 @@
             <groupId>org.glassfish.jersey.containers</groupId>
             <artifactId>jersey-container-grizzly2-http</artifactId>
         </dependency>
+        
+        
+           <!-- Glassfish managed dependencies -->
+            <dependency>
+                <groupId>org.jboss.arquillian.container</groupId>
+                <artifactId>arquillian-glassfish-managed-3.1</artifactId>
+                <version>1.0.2</version>
+            </dependency>
+            
         <!-- uncomment this to get JSON support:
          <dependency>
             <groupId>org.glassfish.jersey.media</groupId>
